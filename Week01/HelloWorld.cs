@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-class Program
+class HelloWorld
 {
     static void Main()
     {
