@@ -12,6 +12,7 @@
 
 ## 미리보기
 
+### HelloWorld.cs
 ```csharp
 using System;
 using System.Text;
@@ -34,5 +35,6 @@ class HelloWorld
 }
 ```
 
+### HelloWorld.md
 ![image](https://github.com/user-attachments/assets/46f367f6-db31-4ca3-9c98-17e9e43bdf8f)
 
