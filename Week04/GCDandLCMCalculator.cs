@@ -3,7 +3,7 @@ using System.Text;
 
 class GCDandLCMCalculator
 {
-    static int gcd(int num1, int num2)
+    static int Gcd(int num1, int num2)
     {
         int remainder;
         int tmp;
@@ -43,7 +43,7 @@ class GCDandLCMCalculator
         int num1 = Convert.ToInt32(read.ReadLine());
         int num2 = Convert.ToInt32(read.ReadLine());
 
-        var result = (num1 * num2) / gcd(num1, num2);
+        var result = (num1 * num2) / Gcd(num1, num2);
         print.Write(result);
     }
 }
