@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-class Program
+class ThreeDimensionalArrayPrinter
 {
     static void Main()
     {
