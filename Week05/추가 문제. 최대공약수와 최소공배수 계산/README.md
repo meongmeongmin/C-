@@ -14,7 +14,7 @@
   - 유클리드 알고리즘을 사용하여 두 정수의 최대공약수를 계산한다. 유클리드 알고리즘은 두 수를 나눈 나머지를 반복적으로 구하여 나머지가 0이 될 때의 나누는 수가 최대공약수가 된다.
 
   ```csharp
-  static int gcd(int num1, int num2)
+  static int Gcd(int num1, int num2)
   {
       int remainder;
       int tmp;
@@ -48,7 +48,7 @@
   int num1 = Convert.ToInt32(read.ReadLine());
   int num2 = Convert.ToInt32(read.ReadLine());
 
-  var result = (num1 * num2) / gcd(num1, num2);
+  var result = (num1 * num2) / Gcd(num1, num2);
   print.Write(result);
   ```
 
