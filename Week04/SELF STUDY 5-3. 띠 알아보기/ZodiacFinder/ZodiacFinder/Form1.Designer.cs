@@ -40,7 +40,6 @@
             this.zodiacTextBox.Name = "zodiacTextBox";
             this.zodiacTextBox.Size = new System.Drawing.Size(100, 21);
             this.zodiacTextBox.TabIndex = 0;
-            this.zodiacTextBox.TextChanged += new System.EventHandler(this.zodiacTextBox_TextChanged);
             // 
             // zodiacFinderButton
             // 
@@ -59,7 +58,6 @@
             this.zodiacPictureBox.Size = new System.Drawing.Size(313, 287);
             this.zodiacPictureBox.TabIndex = 2;
             this.zodiacPictureBox.TabStop = false;
-            this.zodiacPictureBox.Click += new System.EventHandler(this.zodiacPictureBox_Click);
             // 
             // Form1
             // 

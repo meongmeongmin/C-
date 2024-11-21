@@ -28,47 +28,46 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.InputBox = new System.Windows.Forms.TextBox();
-            this.InitButton = new System.Windows.Forms.Button();
-            this.DrawButton = new System.Windows.Forms.Button();
+            this.inputBox = new System.Windows.Forms.TextBox();
+            this.initButton = new System.Windows.Forms.Button();
+            this.drawButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // InputBox
+            // inputBox
             // 
-            this.InputBox.Location = new System.Drawing.Point(86, 50);
-            this.InputBox.Name = "InputBox";
-            this.InputBox.Size = new System.Drawing.Size(139, 21);
-            this.InputBox.TabIndex = 0;
-            this.InputBox.TextChanged += new System.EventHandler(this.InputBox_TextChanged);
+            this.inputBox.Location = new System.Drawing.Point(86, 50);
+            this.inputBox.Name = "inputBox";
+            this.inputBox.Size = new System.Drawing.Size(139, 21);
+            this.inputBox.TabIndex = 0;
             // 
-            // InitButton
+            // initButton
             // 
-            this.InitButton.Location = new System.Drawing.Point(115, 98);
-            this.InitButton.Name = "InitButton";
-            this.InitButton.Size = new System.Drawing.Size(75, 23);
-            this.InitButton.TabIndex = 1;
-            this.InitButton.Text = "초기화";
-            this.InitButton.UseVisualStyleBackColor = true;
-            this.InitButton.Click += new System.EventHandler(this.InitButton_Click);
+            this.initButton.Location = new System.Drawing.Point(115, 98);
+            this.initButton.Name = "initButton";
+            this.initButton.Size = new System.Drawing.Size(75, 23);
+            this.initButton.TabIndex = 1;
+            this.initButton.Text = "초기화";
+            this.initButton.UseVisualStyleBackColor = true;
+            this.initButton.Click += new System.EventHandler(this.initButton_Click);
             // 
-            // DrawButton
+            // drawButton
             // 
-            this.DrawButton.Location = new System.Drawing.Point(115, 142);
-            this.DrawButton.Name = "DrawButton";
-            this.DrawButton.Size = new System.Drawing.Size(75, 23);
-            this.DrawButton.TabIndex = 2;
-            this.DrawButton.Text = "그리기";
-            this.DrawButton.UseVisualStyleBackColor = true;
-            this.DrawButton.Click += new System.EventHandler(this.DrawButton_Click);
+            this.drawButton.Location = new System.Drawing.Point(115, 142);
+            this.drawButton.Name = "drawButton";
+            this.drawButton.Size = new System.Drawing.Size(75, 23);
+            this.drawButton.TabIndex = 2;
+            this.drawButton.Text = "그리기";
+            this.drawButton.UseVisualStyleBackColor = true;
+            this.drawButton.Click += new System.EventHandler(this.drawButton_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(737, 417);
-            this.Controls.Add(this.DrawButton);
-            this.Controls.Add(this.InitButton);
-            this.Controls.Add(this.InputBox);
+            this.Controls.Add(this.drawButton);
+            this.Controls.Add(this.initButton);
+            this.Controls.Add(this.inputBox);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -78,9 +77,9 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox InputBox;
-        private System.Windows.Forms.Button InitButton;
-        private System.Windows.Forms.Button DrawButton;
+        private System.Windows.Forms.TextBox inputBox;
+        private System.Windows.Forms.Button initButton;
+        private System.Windows.Forms.Button drawButton;
     }
 }
 

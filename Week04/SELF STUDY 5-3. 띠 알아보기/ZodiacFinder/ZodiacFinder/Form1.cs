@@ -45,15 +45,5 @@ namespace ZodiacFinder
             zodiacPictureBox.Image = Image.FromFile(imageFile);
             zodiacPictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
         }
-
-        private void zodiacTextBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void zodiacPictureBox_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
