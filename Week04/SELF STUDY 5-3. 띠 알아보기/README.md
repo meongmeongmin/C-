@@ -19,24 +19,26 @@
   - 12간지의 띠에 맞는 이미지를 `PictureBox`에 표시한다. 띠의 종류는 원숭이, 닭, 개, 돼지, 쥐, 소, 호랑이, 토끼, 용, 뱀, 말, 양이다. 해당 연도에 따라 각 띠에 맞는 이미지를 로드하여 사용자에게 보여준다.
 
   ```csharp
-  this.Text = "띠 알아보기";
+  Text = "띠 알아보기";
   int year = Convert.ToInt32(zodiacTextBox.Text);
-  string imageFile = "C:\\Users\\pr620\\source\\repos\\ZodiacFinder\\Images\\";
+
+  string basePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Images");    // 상대 경로
+  string imageFile = "";
 
   switch (year % 12)
   {
-      case 0: imageFile += "원숭이.png"; break;
-      case 1: imageFile += "닭.png"; break;
-      case 2: imageFile += "개.png"; break;
-      case 3: imageFile += "돼지.png"; break;
-      case 4: imageFile += "쥐.png"; break;
-      case 5: imageFile += "소.png"; break;
-      case 6: imageFile += "호랑이.png"; break;
-      case 7: imageFile += "토끼.png"; break;
-      case 8: imageFile += "용.png"; break;
-      case 9: imageFile += "뱀.png"; break;
-      case 10: imageFile += "말.png"; break;
-      case 11: imageFile += "양.png"; break;
+      case 0: imageFile = Path.Combine(basePath, "원숭이.png"); break;
+      case 1: imageFile = Path.Combine(basePath, "닭.png"); break;
+      case 2: imageFile = Path.Combine(basePath, "개.png"); break;
+      case 3: imageFile = Path.Combine(basePath, "돼지.png"); break;
+      case 4: imageFile = Path.Combine(basePath, "쥐.png"); break;
+      case 5: imageFile = Path.Combine(basePath, "소.png"); break;
+      case 6: imageFile = Path.Combine(basePath, "호랑이.png"); break;
+      case 7: imageFile = Path.Combine(basePath, "토끼.png"); break;
+      case 8: imageFile = Path.Combine(basePath, "용.png"); break;
+      case 9: imageFile = Path.Combine(basePath, "뱀.png"); break;
+      case 10: imageFile = Path.Combine(basePath, "말.png"); break;
+      case 11: imageFile = Path.Combine(basePath, "양.png"); break;
   }
 
   zodiacPictureBox.Image = Image.FromFile(imageFile);

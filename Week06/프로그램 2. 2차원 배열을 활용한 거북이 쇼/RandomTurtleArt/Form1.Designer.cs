@@ -28,38 +28,38 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.InitButton = new System.Windows.Forms.Button();
-            this.DrawButton = new System.Windows.Forms.Button();
+            this.initButton = new System.Windows.Forms.Button();
+            this.drawButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // InitButton
+            // initButton
             // 
-            this.InitButton.Location = new System.Drawing.Point(96, 80);
-            this.InitButton.Name = "InitButton";
-            this.InitButton.Size = new System.Drawing.Size(75, 23);
-            this.InitButton.TabIndex = 0;
-            this.InitButton.Text = "초기화";
-            this.InitButton.UseVisualStyleBackColor = true;
-            this.InitButton.Click += new System.EventHandler(this.InitButton_Click);
+            this.initButton.Location = new System.Drawing.Point(96, 80);
+            this.initButton.Name = "initButton";
+            this.initButton.Size = new System.Drawing.Size(75, 23);
+            this.initButton.TabIndex = 0;
+            this.initButton.Text = "초기화";
+            this.initButton.UseVisualStyleBackColor = true;
+            this.initButton.Click += new System.EventHandler(this.initButton_Click);
             // 
-            // DrawButton
+            // drawButton
             // 
-            this.DrawButton.Location = new System.Drawing.Point(96, 123);
-            this.DrawButton.Name = "DrawButton";
-            this.DrawButton.Size = new System.Drawing.Size(75, 23);
-            this.DrawButton.TabIndex = 1;
-            this.DrawButton.Text = "그리기";
-            this.DrawButton.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.DrawButton.UseVisualStyleBackColor = true;
-            this.DrawButton.Click += new System.EventHandler(this.DrawButton_Click);
+            this.drawButton.Location = new System.Drawing.Point(96, 123);
+            this.drawButton.Name = "drawButton";
+            this.drawButton.Size = new System.Drawing.Size(75, 23);
+            this.drawButton.TabIndex = 1;
+            this.drawButton.Text = "그리기";
+            this.drawButton.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.drawButton.UseVisualStyleBackColor = true;
+            this.drawButton.Click += new System.EventHandler(this.drawButton_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.DrawButton);
-            this.Controls.Add(this.InitButton);
+            this.ClientSize = new System.Drawing.Size(784, 761);
+            this.Controls.Add(this.drawButton);
+            this.Controls.Add(this.initButton);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -68,8 +68,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button InitButton;
-        private System.Windows.Forms.Button DrawButton;
+        private System.Windows.Forms.Button initButton;
+        private System.Windows.Forms.Button drawButton;
     }
 }
 

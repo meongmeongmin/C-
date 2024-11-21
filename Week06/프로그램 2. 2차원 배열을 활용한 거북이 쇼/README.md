@@ -16,7 +16,7 @@
   - `InitButton` 클릭 시, 거북이 그래픽의 초기 위치를 설정하고 화면 크기를 지정한다.
 
   ```csharp
-  private void InitButton_Click(object sender, EventArgs e)
+  private void initButton_Click(object sender, EventArgs e)
   {
       Turtle.Init();
       Turtle.MoveTo(0, 0);
@@ -27,7 +27,7 @@
   - `DrawButton` 클릭 시, 거북이 그래픽을 이용하여 랜덤한 위치와 색상으로 드로잉을 수행한다. 배열 `ary`는 각 드로잉의 위치, 선의 두께, 색상 등을 저장하며, 이를 기반으로 드로잉을 수행한다.
 
   ```csharp
-  private void DrawButton_Click(object sender, EventArgs e)
+  private void drawButton_Click(object sender, EventArgs e)
   {
       int swidth = 800;
       int sheight = 800;

@@ -18,13 +18,13 @@ namespace Week02_BinaryTurtleGraphics
             InitializeComponent();
         }
 
-        private void InitButton_Click(object sender, EventArgs e)
+        private void initButton_Click(object sender, EventArgs e)
         {
             Turtle.Init();
             Turtle.MoveTo(0, 0);
         }
 
-        private void DrawButton_Click(object sender, EventArgs e)
+        private void drawButton_Click(object sender, EventArgs e)
         {
             int swidth = 800;
             int sheight = 800;

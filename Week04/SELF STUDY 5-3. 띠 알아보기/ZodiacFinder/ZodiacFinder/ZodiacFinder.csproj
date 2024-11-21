@@ -79,5 +79,19 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\개.png" />
+    <Content Include="Images\닭.png" />
+    <Content Include="Images\돼지.png" />
+    <Content Include="Images\말.png" />
+    <Content Include="Images\뱀.png" />
+    <Content Include="Images\소.png" />
+    <Content Include="Images\양.png" />
+    <Content Include="Images\용.png" />
+    <Content Include="Images\원숭이.png" />
+    <Content Include="Images\쥐.png" />
+    <Content Include="Images\토끼.png" />
+    <Content Include="Images\호랑이.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
